@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicon/pp.jpg">
+</head>
+<body>
+    <div class="container">
+        <h1>Enjol's Todo List</h1>
+        <div class="todo-app">
+    <form>
+        <input type="text" class="todo-input" placeholder="New Task...">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    </div>
+    <footer class="todo-footer">Made with ❤️ by <a href="https://github.com/devenjol" >Enjol </a></footer>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
